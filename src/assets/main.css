@@ -5,4 +5,14 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
+
+}
+
+body {
+  background-color: #00132D;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: content-box;
+  overflow-y: hidden;
 }

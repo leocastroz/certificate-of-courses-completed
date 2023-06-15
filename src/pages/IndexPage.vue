@@ -58,7 +58,7 @@ export default {
 
 .fade-enter,
 .fade-leave-to {
-  opacity: 0;
+  opacity: 0.1;
 }
 
 /* Estilo para o componente carregado ocupar 100% da tela */
@@ -66,8 +66,6 @@ export default {
   height: 100%;
   width: 100%;
 }
-
-
 
 
 .section {
