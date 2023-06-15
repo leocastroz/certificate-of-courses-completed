@@ -124,7 +124,7 @@ export default {
 
 .pos-container a:hover {
     background-color: #0094fe;
-    box-shadow: 0 0 200px #00d4fe   ;
+    box-shadow: 0 0 200px #00d4fe;
 } 
 
 .pos-container img {

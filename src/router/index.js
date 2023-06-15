@@ -15,6 +15,36 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue')
     },
     {
+      path: '/teste',
+      name: 'teste',
+      component: () => import('../pages/Teste.vue')
+    },
+    {
+      path: '/alura-jest',
+      name: 'alura-jest',
+      component: () => import('../pages/AluraJest.vue')
+    },
+    {
+      path: '/alura-vuex',
+      name: 'alura-vuex',
+      component: () => import('../pages/AluraVuex.vue')
+    },
+    {
+      path: '/alura-api',
+      name: 'alura-api',
+      component: () => import('../pages/AluraApi.vue')
+    },
+    {
+      path: '/alura-explore',
+      name: 'alura-explore',
+      component: () => import('../pages/AluraExplore.vue')
+    },
+    {
+      path: '/palestra-flisol',
+      name: 'palestra-flisol',
+      component: () => import('../pages/PalestraFlisol.vue')
+    },
+    {
       path: '/construindo-single-page-applications',
       name: 'construindo-single-page-applications',
       component: () => import('../views/PexView.vue')

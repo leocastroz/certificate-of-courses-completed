@@ -5,7 +5,7 @@
 
 <template>
   <div>
-    <img src="../assets/1.png" alt="">
+    <img src="../assets/6.png" alt="">
   </div>
 </template>
 

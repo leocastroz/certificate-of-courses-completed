@@ -1,6 +1,4 @@
 <script setup>
-// import { RouterLink, RouterView } from 'vue-router'
-
 import IndexPage from './pages/IndexPage.vue';
 import AnotherComponent from './pages/AnotherComponent.vue';
 import { ref } from 'vue';
@@ -20,9 +18,7 @@ function handleChangeTemplate() {
       <IndexPage :is="currentComponent" key="componentKey" v-if="showComponent" @change-template="handleChangeTemplate" />
       <AnotherComponent :is="currentComponent" v-else />
     </transition>
-
   </header>
-
 </template>
 
 <style scoped>
