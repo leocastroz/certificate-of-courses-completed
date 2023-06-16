@@ -10,13 +10,13 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/about',
-      name: 'about',
+      path: '/single-page-application-1',
+      name: 'single-page-application-1',
       component: () => import('../views/AboutView.vue')
     },
     {
-      path: '/teste',
-      name: 'teste',
+      path: '/single-page-application-2',
+      name: 'single-page-application-2',
       component: () => import('../pages/Teste.vue')
     },
     {
@@ -43,6 +43,16 @@ const router = createRouter({
       path: '/palestra-flisol',
       name: 'palestra-flisol',
       component: () => import('../pages/PalestraFlisol.vue')
+    },
+    {
+      path: '/origamid-ui',
+      name: 'origamid-ui',
+      component: () => import('../pages/OrigamidUi.vue')
+    },
+    {
+      path: '/another-component',
+      name: 'another-component',
+      component: () => import('../pages/AnotherComponent.vue')
     },
     {
       path: '/construindo-single-page-applications',

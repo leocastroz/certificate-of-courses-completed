@@ -1,14 +1,16 @@
 <template>
     <div class="container">
         <div class="min-box">
-            <RouterLink to="/about">Single Page Application 1</RouterLink> 
-            <RouterLink to="/teste">Single Page Application 2</RouterLink>
-            <RouterLink to="/alura-vuex">Autenticação e Vuex</RouterLink>
-            <RouterLink to="/alura-jest">Testes Unitários Jest</RouterLink>
-            <RouterLink to="/alura-api">Composition API</RouterLink>
-            <RouterLink to="/alura-explore">Explorando Framework</RouterLink>
-            <RouterLink to="/palestra-flisol">Palestrante 2023</RouterLink>
-            <RouterLink to="/construindo-single-page-applications">conferir agora</RouterLink>
+            <div class="certificates">
+                <RouterLink to="/single-page-application-1">Single Page Application 1</RouterLink> 
+                <RouterLink to="/single-page-application-2">Single Page Application 2</RouterLink>
+                <RouterLink to="/alura-vuex">Autenticação e Vuex</RouterLink>
+                <RouterLink to="/alura-jest">Testes Unitários Jest</RouterLink>
+                <RouterLink to="/alura-api">Composition API</RouterLink>
+                <RouterLink to="/alura-explore">Explorando Framework</RouterLink>
+                <RouterLink to="/palestra-flisol">Palestrante 2023</RouterLink>
+                <RouterLink to="/origamid-ui">Origamid UI</RouterLink>
+            </div>
         </div>
         <div class="reative">
             <transition name="fade" mode="out-in">
@@ -59,10 +61,23 @@ a.router-link-exact-active {
 }
 
 .min-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     padding: 20px;
     margin-bottom: 100px;
 }
 
+.certificates {
+    margin: 80px auto;
+    max-width: 1600px;
+}
+
+
+.reative {
+    margin-top: 150px;
+}
 
 .container img {
     max-width: 900px;

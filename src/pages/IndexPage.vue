@@ -20,13 +20,12 @@ export default {
             </div>
             <div class="pos-container">
                 <img src="../assets/arrow.png" alt="arrow">
-                <RouterLink to="/about" @click="handleClick">conferir agora</RouterLink>
+                <RouterLink to="/another-component" @click="handleClick">asdas</RouterLink>   
             </div>
         </div>
         <div class="footer">
             <div class="footer-box">
                 <p>Todos os direitos reservados © - 2023</p>
-
             </div>
         </div>
         <!-- <transition name="fade" mode="out-in">
