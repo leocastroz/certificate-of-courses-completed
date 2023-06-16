@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <img src="../assets/9.png" alt="" width="800">
+    <img src="../assets/9.png" alt="">
   </div>
 </template>
   
@@ -9,7 +9,25 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 0 250px #006afe63;
+}
+
+.about img {
+  width: 100%;
+  max-width: 700px;
+}
+
+
+@media (max-width: 1024px) {
+  .about {
+    margin: 0 auto;
+    padding-top: 80px;
+  }
+}
+
+@media (max-width: 500px) {
+  .about img {
+    padding: 10px;
+  }
 }
 </style>
   

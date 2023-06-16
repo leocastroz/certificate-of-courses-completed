@@ -26,6 +26,16 @@ span {
   font-weight: 900;
 }
 
+.greetings h1 {
+  font-size: 20px;
+}
+
+.greetings h3 {
+  padding: 10px 0;
+  font-size: 15px;
+}
+
+
 h1 {
   font-weight: 500;
   font-size: 2.6rem;
@@ -43,9 +53,14 @@ h3 {
 }
 
 @media (min-width: 1024px) {
-  .greetings h1,
-  .greetings h3 {
+  .greetings h1 {
     text-align: left;
+    font-size: 30px;
+  }
+  .greetings h3 {
+    font-size: 18px;
+    text-align: left;
+
   }
 }
 </style>

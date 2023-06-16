@@ -9,13 +9,18 @@
     <br>
     <div class="pos-container">
       <img src="../assets/arrow.png" alt="arrow">
-      <RouterLink to="/single-page-application-1">Next</RouterLink>  
+      <RouterLink to="/single-page-application-1">CONFERIR AGORA</RouterLink>  
   </div>
 
   </main>
 </template>
 
 <style scoped>
+
+main {
+  text-align: center;
+  padding: 120px 0;
+}
 
 main h1 {
   font-weight: 800;
@@ -35,9 +40,13 @@ main a {
   border-radius: 4px;
   padding: 5px 20px;
   background-color: #006AFE;
+  color: #00419c;
+  font-weight: 700;
+  border: 8px solid #003785;
 }
 
 .pos-container {
+  justify-content: center;
   display: flex;
   align-items: center;
 

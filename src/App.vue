@@ -29,8 +29,8 @@ import HelloWorld from './components/HelloWorld.vue'
 .imper {
   margin-top: 300px;
 }
+
 header {
-  padding: 60px 0;
   width: 100vw;
   line-height: 1.5;
   max-height: 100vh;
@@ -38,11 +38,13 @@ header {
   top: 0;
   left: 0;
   background-color: #00000038;
+  padding: 20px;
 }
 
 .logo {
+  width: 150px;
   display: block;
-  margin: 0 auto 2rem;
+  margin: 0 auto;
 }
 
 
@@ -73,13 +75,14 @@ nav a:first-of-type {
 
 @media (min-width: 1024px) {
   header {
+    padding: 60px 0;
     display: flex;
     place-items: center;
     padding-right: calc(var(--section-gap) / 2);
   }
 
   .logo {
-    margin: 0 2rem 0 0;
+    width: 200px;
   }
 
   header .wrapper {
@@ -92,9 +95,6 @@ nav a:first-of-type {
     text-align: left;
     margin-left: -1rem;
     font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
   }
 }
 </style>
