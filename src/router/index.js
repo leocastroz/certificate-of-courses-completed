@@ -12,53 +12,44 @@ const router = createRouter({
     {
       path: '/single-page-application-1',
       name: 'single-page-application-1',
-      component: () => import('../views/AboutView.vue')
+      component: () => import('../views/SinglePageOne.vue')
     },
     {
       path: '/single-page-application-2',
       name: 'single-page-application-2',
-      component: () => import('../pages/Teste.vue')
+      component: () => import('../views/SinglePageTwo.vue')
     },
     {
       path: '/alura-jest',
       name: 'alura-jest',
-      component: () => import('../pages/AluraJest.vue')
+      component: () => import('../views/AluraJest.vue')
     },
     {
       path: '/alura-vuex',
       name: 'alura-vuex',
-      component: () => import('../pages/AluraVuex.vue')
+      component: () => import('../views/AluraVuex.vue')
     },
     {
       path: '/alura-api',
       name: 'alura-api',
-      component: () => import('../pages/AluraApi.vue')
+      component: () => import('../views/AluraApi.vue')
     },
     {
       path: '/alura-explore',
       name: 'alura-explore',
-      component: () => import('../pages/AluraExplore.vue')
+      component: () => import('../views/AluraExplore.vue')
     },
     {
       path: '/palestra-flisol',
       name: 'palestra-flisol',
-      component: () => import('../pages/PalestraFlisol.vue')
+      component: () => import('../views/PalestraFlisol.vue')
     },
     {
       path: '/origamid-ui',
       name: 'origamid-ui',
-      component: () => import('../pages/OrigamidUi.vue')
+      component: () => import('../views/OrigamidUi.vue')
     },
-    {
-      path: '/another-component',
-      name: 'another-component',
-      component: () => import('../pages/AnotherComponent.vue')
-    },
-    {
-      path: '/construindo-single-page-applications',
-      name: 'construindo-single-page-applications',
-      component: () => import('../views/PexView.vue')
-    }
+
   ]
 })
 
